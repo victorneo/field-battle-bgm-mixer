@@ -27,6 +27,5 @@ for i in xrange(1, NUM_BATTLES+1):
     output = output.append(field_song[battle_start:battle_end], crossfade=(1000))
 
 # Export music as output.mp3
-out_f = open('output.mp3', 'wb')
-output.export(out_f, format='mp3')
-out_f.close()
+with open('output.mp3', 'wb') as f:
+    output.export(f, format='mp3')
