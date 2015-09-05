@@ -1,13 +1,13 @@
 ## Field & Battle music generator
 
 Most action RPGs, such as Kingdom Hearts, interleave field and battle music
-when you are out exploring the world while soundtracks for such games have both
-field and battle music different tracks. This simple script will generate
-a MP3 file interleaving field and battle tracks to recreate the in-game
-music experience.
+when you are out exploring the world while soundtracks for these games have
+both field and battle music as different tracks. This simple script will
+generate a MP3 file interleaving the field and battle track to recreate the
+in-game music experience.
 
-This is a simple script and at this moment only interleave battle music
-at fixed intervals.
+This is a simple script and all it does is interleave battle music at fixed
+intervals for now.
 
 ### Installation
 
@@ -37,7 +37,7 @@ Copy and rename your field music as `field.mp3` and battle music as
 python gen.py
 ```
 
-Play resulting `output.mp3` in your favourite music player and enjoy the
+Play the resulting `output.mp3` in your favourite music player and enjoy the
 in-game music experience!
 
 
